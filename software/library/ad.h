@@ -3,6 +3,8 @@ extern byte ad_count;
 extern word ad_value, v_data, VDD, VDD_smoking, V_out, VDD_charging;
 extern eword ad_sum, ad_sum_bandgap;
 extern byte ad_turn;
+extern word temp_adc;
+extern byte temperature;
 
 extern byte r_ad_flag;
 extern bit flag_data_convey;//		:r_ad_flag.0;
